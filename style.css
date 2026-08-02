@@ -1,5 +1,5 @@
 :root {
-    --site-bg: url('capyba66/Dearpisey-site/image/pinkstar.gif');
+    --site-bg: url('capyba66/Dearpisey-site/pinkstar.gif');
     --accent-color: #f55cc0;
     --select-color: #faffc1;
     --link-color: #c82c97;
@@ -62,7 +62,7 @@
 
 body {
     background-color: #ffe6f6;
-    background-image: url('capyba66/Dearpisey-site/image/pinkstar.gif');
+    background-image: url('capyba66/Dearpisey-site/pinkstar.gif');
     background-repeat: repeat;
     margin: 0;
     font-size: 18px;
@@ -98,7 +98,7 @@ hr {
     border: 0;
     height: 48px;
     width: 430;
-    background-image: url('capyba66/Dearpisey-site/image/div-star.png');
+    background-image: url('capyba66/Dearpisey-site/div-star.png');
 }
 
 nav {margin: 2em;}
@@ -144,7 +144,7 @@ a:hover {
 }
 
 ul li {
-    list-style: url('capyba66/Dearpisey-site/image/starbullet.png')
+    list-style: url('capyba66/Dearpisey-site/starbullet.png')
 }
 
 li {
@@ -235,7 +235,7 @@ details > summary {
     cursor:pointer;
     margin: 10px;
     padding: 5px;
-    list-style: url('capyba66/Dearpisey-site/image/starbullet.png')
+    list-style: url('capyba66/Dearpisey-site/starbullet.png')
 }
 
 .headingsummary {
