@@ -185,6 +185,12 @@ iframe {
     height: 252;
 }
 
+#contactform {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+}
+
 #content {
     display: flex;
     align-content: center;
