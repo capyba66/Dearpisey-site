@@ -74,7 +74,7 @@ h1 {
     font-family: 'Amarante', Alegreya Sans SC, serif;
     font-size: 1.5em;
     color: #ffffff;
-    filter: drop-shadow(2px 0 0 #c82c97) drop-shadow(0 2px 0 #c82c97) drop-shadow(-2px 0 0 #ffc1e9) drop-shadow(0 -2px 0 #ffc1e9)drop-shadow(0 1px 1px var(#f55cc0)) drop-shadow(1px 0 1px var(#f55cc0));
+    filter: drop-shadow(2px 0 0 #c82c97) drop-shadow(0 2px 0 #c82c97) drop-shadow(-2px 0 0 #f55cc0) drop-shadow(0 -2px 0 #f55cc0)drop-shadow(0 1px 1px var(#ffc1e9)) drop-shadow(1px 0 1px var(#ffc1e9));
 }
 h4,
 h5,
