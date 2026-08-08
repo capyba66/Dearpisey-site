@@ -25,7 +25,7 @@
   font-family: 'Amarante';
   font-style: normal;
   font-weight: 400;
-  src: url('Fonts/acme-v26-latin-regular.woff2') format('woff2');
+  src: url('Fonts/amarante-v29-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -41,7 +41,7 @@
   font-family: 'Alegreya Sans SC';
   font-style: italic;
   font-weight: 400;
-  src: url('Fonts/alegreya-sans-sc-v23-latin-italic.woff2') format('woff2');
+  src: url('Fonts/alegreya-sans-sc-v23-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -74,7 +74,7 @@ h1 {
     font-family: 'Amarante', Alegreya Sans SC, serif;
     font-size: 1.5em;
     color: #ffffff;
-    filter: drop-shadow(2px 0 0 #c82c97) drop-shadow(0 2px 0 #c82c97) drop-shadow(-2px 0 0 #c82c97) drop-shadow(0 -2px 0 #c82c97)drop-shadow(0 1px 1px var(--outline-color2)) drop-shadow(1px 0 1px var(--outline-color2));
+    filter: drop-shadow(2px 0 0 #c82c97) drop-shadow(0 2px 0 #c82c97) drop-shadow(-2px 0 0 #ffc1e9) drop-shadow(0 -2px 0 #ffc1e9)drop-shadow(0 1px 1px var(#f55cc0)) drop-shadow(1px 0 1px var(#f55cc0));
 }
 h4,
 h5,
