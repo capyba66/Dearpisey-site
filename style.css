@@ -155,7 +155,7 @@ li {
 #sidebar {
     background-color: #ffffff;
     color: #c82c97;
-    width: 450px;
+    width: 220px;
     height: fit-content;
     margin: 1em;
     border: 4px double #c82c97;
@@ -177,7 +177,8 @@ li {
     border: 4px double #c82c97;
     border-radius: 2em;
 }
-.coloredbox p { margin: 1em; }
+
+.coloredbox p {margin: 1em;}
 
 iframe {
     border: none;
