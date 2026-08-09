@@ -93,6 +93,10 @@ header > h1 {
     text-align: center;
 }
 
+.underline {
+  text-decoration: dotted #c82c97;
+}
+
 hr {
     display: block;
     border: 0;

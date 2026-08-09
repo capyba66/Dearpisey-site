@@ -1,5 +1,3 @@
-Tally.loadEmbeds();
-
 var slideIndex = [1,1];
 var slideId = ["mySlides1", "mySlides2"]
 showDivs(1, 0);
@@ -19,3 +17,5 @@ function showDivs(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+var Tally = Tally.loadEmbeds();
