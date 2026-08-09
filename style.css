@@ -163,7 +163,8 @@ li {
 
 /* containers */
 .btncontainer {
-  height: 75px;
+  height: auto;
+  width: 100%;
 }
 
 #sidebar {
@@ -325,7 +326,7 @@ details > summary {
     float: left;
     width: 250px;
     max-height: 300px;
-    margin: 15px;
+    margin: 5px;
     position: relative;
     object-fit: cover;
     border-radius: 10px;
