@@ -43,12 +43,12 @@
         
         <div class="coloredbox">
         <h1>Contacts and socials</h1>
-        <p class="button"><a href="https://www.instagram.com/dearpisey/">Instagram</a></p>
-        <p class="button"><a href="https://x.com/dearpisey">Twitter</a></p>
-        <p class="button"><a href="https://mastodon.art/@dearpisey">Mastodon</a></p>
-        <p class="button"><a href="https://bsky.app/profile/dearpisey.bsky.social">Bluesky</a></p>
-        <p class="button"><a href="https://www.tiktok.com/@dearpisey">Tiktok</a></p>
-        <p class="button"><a href="https://www.youtube.com/@Dearpisey">Youtube</a></p>
+        <button><a href="https://www.instagram.com/dearpisey/">Instagram</a></button>
+        <button><a href="https://x.com/dearpisey">Twitter</a></button>
+        <button><a href="https://mastodon.art/@dearpisey">Mastodon</a></button>
+        <button><a href="https://bsky.app/profile/dearpisey.bsky.social">Bluesky</a></button>
+        <button><a href="https://www.tiktok.com/@dearpisey">Tiktok</a></button>
+        <button><a href="https://www.youtube.com/@Dearpisey">Youtube</a></button>
         </div>   
         
     </aside>
@@ -87,8 +87,19 @@
         </article>
         
         <hr>
-        
-        <article>
+
+        <article class="clearfix">
+            <h1>Filter Posts</h1>
+        </article>
+
+        <div class="btncontainer">
+            <button class="filterbtn active" onclick="filterSelection('all')">All Posts</button>
+            <button class="filterbtn" onclick="filterSelection('updates')">Life Updates</button>
+            <button class="filterbtn" onclick="filterSelection('TIL')">Today I Learned</button>
+            <button class="filterbtn" onclick="filterSelection('SIC')">Special Interest Chatter</button>
+        </div>
+
+        <article class="filter updates">
             <div class="post-header">
                 Jamie T. <span class="timestamp">7/15/2025</span>
             </div>
@@ -104,7 +115,7 @@
             </details>
         </article>
         
-        <article>
+        <article class="filter updates">
         <div class="post-header">
             Jamie T. <span class="timestamp">11/22/2025</span>
         </div>
@@ -113,7 +124,7 @@
             <p>If anyone saw my previous website, no you didn't. In all seriousness though, I redesigned the website and put more content in each page.</p>
         </article>
         
-        <!--<article>
+        <!--<article class="filter">
         <div class="post-header">
             Jamie T. <span class="timestamp">11/27/2025</span>
         </div>
@@ -128,7 +139,7 @@
             </details>
         </article>
         
-        <article>
+        <article class="filter">
         <div class="post-header">
             Jamie T. <span class="timestamp">00/00/2026</span>
         </div>
@@ -136,7 +147,7 @@
             <p>post post something please please more writing please feed me I need more posts</p>
         </article>
         
-        <article>
+        <article class="filter">
         <div class="post-header">
             Jamie T. <span class="timestamp">11/27/2025</span>
         </div>
@@ -150,7 +161,7 @@
                 <p>text</p>
             </details>
         </article>-->
-        
+        <button class="loadmore-btn">Load More</button>
     </main>	
     </div>
 

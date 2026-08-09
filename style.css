@@ -15,6 +15,8 @@
 * {
     box-sizing: border-box;
     font-family: "Acme", Alegreya, sans-serif;
+    overflow-x: auto;
+    overscroll-behavior-x: none;
 }
 ::selection {
     background: #faffc1;
@@ -219,17 +221,23 @@ section {
     font-size: 18px;
 }
 
-.button {
+button {
     background-color: white;
     border: 2px dashed #c82c97;
     border-radius: 2em;
     text-align: center;
     color: #c82c97;
     text-decoration: none;
+    width: 130px;
+    height: 30px;
 }
 
-.button:hover {
+button:hover {
     background-color: #faffc1;
+}
+
+.filterbtn {
+  max-width: 130px;
 }
 
 article {
@@ -274,6 +282,18 @@ details > summary {
     border-bottom: 2px dashed #c82c97;
     padding-bottom: .6em;
     margin-bottom: .6em;
+}
+
+.filter {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 .video {
