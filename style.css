@@ -322,7 +322,8 @@ details > summary {
 .pic {
     float: left;
     width: 250px;
-    max-height: 350px;
+    max-height: 300px;
+    margin: 15px;
     position: relative;
     object-fit: cover;
     border-radius: 10px;
