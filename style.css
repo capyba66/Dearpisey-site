@@ -311,8 +311,7 @@ details > summary {
 
 .pic {
     float: left;
-    margin: auto;
-    max-width: 250px;
+    width: 250px;
     max-height: 350px;
     position: relative;
     object-fit: cover;
