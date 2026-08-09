@@ -301,6 +301,10 @@ details > summary {
   display: none;
 }
 
+.filterbox {
+  height: 75px;
+}
+
 .show {
   display: block;
 }
