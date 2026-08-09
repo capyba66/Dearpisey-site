@@ -191,8 +191,8 @@ iframe {
 }
 
 .contactform {
-  width: 140%;
-  height: 400px;
+  width: 480px;
+  height: 100%;
   margin: 0;
   border-radius: 20px;
   padding: 20px;
@@ -241,6 +241,11 @@ article {
     margin-bottom: 1em;
     box-shadow: #c82c97 5px 5px;
 }
+
+.projectspage {
+  max-width: 680px;
+}
+
 article img {
     max-width: 100%;
 }
@@ -446,6 +451,13 @@ footer {
 @media only screen and (max-width: 800px) {
     #content {
         flex-wrap: wrap;
+    }
+
+    .projectspage {
+        max-width: 250px;
+    }
+    .contactform {
+    width: 280px;
     }
     #sidebar {
         margin: 0;
