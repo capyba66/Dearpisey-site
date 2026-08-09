@@ -15,7 +15,6 @@
 * {
     box-sizing: border-box;
     font-family: "Acme", Alegreya, sans-serif;
-    overflow-x: auto;
     overscroll-behavior-x: none;
 }
 ::selection {
