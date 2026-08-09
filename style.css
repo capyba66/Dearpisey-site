@@ -158,7 +158,6 @@ ul li {
 }
 
 li {
-    list-style: url('assets/starbullet.png');
     margin: 10px;
     line-height: 1.5em;
 }
@@ -234,7 +233,7 @@ section {
 /* buttons */
 button {
     background-color: white;
-    margin: auto;
+    margin: 15px;
     border: 2px dashed #c82c97;
     border-radius: 2em;
     text-align: center;
