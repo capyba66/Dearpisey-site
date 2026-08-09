@@ -154,7 +154,7 @@ a:hover {
 }
 
 ul li {
-    list-style: url('assets/starbullet.png')
+    list-style: url('assets/starbullet.png');
 }
 
 li {
