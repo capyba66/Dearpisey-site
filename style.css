@@ -467,10 +467,10 @@ footer {
     }
 
     .projectspage {
-        max-width: 320px;
+        width: 100%;
     }
     .contactform {
-    width: 320px;
+        width: 100%;
     }
     #sidebar {
         margin: 0;
@@ -532,4 +532,7 @@ footer {
         margin: .3em 1em;
     }
     
+    .video {
+      width: 100%;
+    }
 }
