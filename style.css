@@ -240,6 +240,11 @@ button:hover {
   max-width: 130px;
 }
 
+.right {
+  float: right;
+  width: 300px;
+}
+
 article {
     background-color: #ffffff;
     margin-top: 1em;
@@ -307,8 +312,8 @@ details > summary {
 .pic {
     display: flex;
     margin: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 280px;
+    max-height: 350px;
     position: relative;
     object-fit: cover;
     border-radius: 10px;
@@ -337,6 +342,7 @@ details > summary {
   clear: both;
   display: table;
 }
+
 .small-text {
     font-size: 12px;
     text-shadow: #ffc1e9 1px 1px;
