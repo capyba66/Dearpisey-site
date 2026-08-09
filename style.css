@@ -70,6 +70,8 @@ body {
     font-size: 18px;
     color: #c82c97;
 }
+
+/* text styles */
 p {line-height: 1.5em;}
 
 h1 {
@@ -107,6 +109,7 @@ hr {
     background-image: url('assets/div-star.png');
 }
 
+/* navbar alignment and customization */
 nav {margin: 2em;}
 
 nav > ul {
@@ -136,7 +139,8 @@ nav li > a:hover {
     color: #c82c97;
     background-color: #faffc1;
 }
-    
+
+/* links and bullet points */
 a {
     color: #c82c97;
     border-radius: .3em;
@@ -154,8 +158,14 @@ ul li {
 }
 
 li {
+    list-style: url('assets/starbullet.png');
     margin: 10px;
     line-height: 1.5em;
+}
+
+/* containers */
+.btncontainer {
+  height: 75px;
 }
 
 #sidebar {
@@ -221,8 +231,10 @@ section {
     font-size: 18px;
 }
 
+/* buttons */
 button {
     background-color: white;
+    margin: auto;
     border: 2px dashed #c82c97;
     border-radius: 2em;
     text-align: center;
@@ -240,11 +252,7 @@ button:hover {
   max-width: 130px;
 }
 
-.right {
-  float: right;
-  width: 300px;
-}
-
+/* more containers for posts */
 article {
     background-color: #ffffff;
     margin-top: 1em;
@@ -289,6 +297,7 @@ details > summary {
     margin-bottom: .6em;
 }
 
+/* filter system */
 .filter {
   display: none;
 }
@@ -301,6 +310,7 @@ details > summary {
   display: none;
 }
 
+/* videos and images */
 .video {
     margin: 2.5em;
     border-radius: 0.75em;
@@ -334,8 +344,12 @@ details > summary {
     float: right;
 }
 
-.center { text-align: center; }
+/* alignment */
+.right {float: right; width: 300px;}
 
+.center {text-align: center;}
+
+/* other stuff */
 .clearfix::after {
   content: "";
   clear: both;
