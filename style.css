@@ -307,6 +307,10 @@ details > summary {
   height: 75px;
 }
 
+filterbox > h1 {
+  margin: auto;
+}
+
 .show {
   display: block;
 }
@@ -330,9 +334,8 @@ details > summary {
 
 .pic {
     float: left;
-    width: 250px;
-    max-height: 300px;
-    margin: 5px;
+    width: 200px;
+    max-height: 260px;
     position: relative;
     object-fit: cover;
     border-radius: 10px;
