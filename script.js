@@ -60,7 +60,7 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current control button (highlight it)
+// Add active class to the current control button
 var btnContainer = document.getElementsByClassName("btncontainer");
 var btns = btnContainer.getElementsByClassName("filterbtn");
 for (var i = 0; i < btns.length; i++) {

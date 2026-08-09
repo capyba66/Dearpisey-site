@@ -306,6 +306,10 @@ details > summary {
   display: block;
 }
 
+.active {
+  display: block;
+}
+
 .hidden {
   display: none;
 }
