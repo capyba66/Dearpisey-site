@@ -70,7 +70,7 @@ body {
 }
 
 /* text styles */
-p {line-height: 1.5em;}
+p {margin: 5px; line-height: 1.5em;}
 
 h1 {
     font-family: 'Amarante', Alegreya Sans SC, serif;
@@ -361,7 +361,7 @@ details > summary {
 }
 
 /* alignment */
-.right {float: right; width: 275px;}
+.right {float: right; margin: 5px; width: 275px;}
 
 .center {text-align: center;}
 
@@ -538,6 +538,10 @@ footer {
         border-radius: 0;
     }
     
+    .pic {
+      max-width: 250px;
+    }
+
     header {min-height: 160px;}
    
     header > h1 { 
