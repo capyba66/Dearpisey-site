@@ -341,6 +341,7 @@ filterbox > h1 {
     float: left;
     width: 200px;
     max-height: 260px;
+    margin: 10px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 5px 40px 10px rgba(166,16,119,0.6);
@@ -362,7 +363,7 @@ filterbox > h1 {
 }
 
 /* alignment */
-.right {float: right; width: 300px;}
+.right {float: right; width: 275px;}
 
 .center {text-align: center;}
 
