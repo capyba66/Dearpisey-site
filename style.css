@@ -343,7 +343,7 @@ details > summary {
 }
 
 .pic {
-    float: left;
+    left: 0;
     width: 47%;
     max-height: 100%;
     position: relative;
