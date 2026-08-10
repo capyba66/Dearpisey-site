@@ -242,7 +242,12 @@ button {
     color: #c82c97;
     text-decoration: none;
     width: 130px;
+    max-width: 175px;
     height: 30px;
+}
+
+.social {
+  text-decoration: none;
 }
 
 button:hover {
