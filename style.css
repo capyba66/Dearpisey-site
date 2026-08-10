@@ -339,6 +339,7 @@ details > summary {
     float: left;
     width: 47%;
     max-height: 100%;
+    position: relative;
     margin: 6%;
     object-fit: cover;
     border-radius: 10px;
