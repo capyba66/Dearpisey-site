@@ -70,7 +70,11 @@ body {
 }
 
 /* text styles */
-p {margin: 5px; line-height: 1.5em;}
+p {
+  margin: 5px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
 
 h1 {
     font-family: 'Amarante', Alegreya Sans SC, serif;
@@ -107,6 +111,7 @@ hr {
     height: 48px;
     width: 430;
     background-image: url('assets/div-star.png');
+    object-fit: contain;
 }
 
 /* navbar alignment and customization */
@@ -229,22 +234,22 @@ section {
     margin-bottom: 10px;
     padding: .2em 1em;
     font-size: 18px;
-    display: inline-block;
 }
 
 /* buttons */
 button {
     background-color: white;
-    margin: 15px;
     border: 2px dashed #c82c97;
     border-radius: 2em;
     text-align: center;
     font-size: 20px;
     color: #c82c97;
-    text-decoration: none;
     width: 130px;
-    max-width: 175px;
     height: 30px;
+}
+
+button > a {
+  text-decoration: none;
 }
 
 .social > a {
@@ -258,6 +263,7 @@ button:hover {
 .filterbtn {
   max-width: 175px;
   display: inline-block;
+  margin: 15px;
 }
 
 /* more containers for posts */
