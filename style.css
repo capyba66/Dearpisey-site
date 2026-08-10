@@ -255,7 +255,8 @@ button:hover {
 }
 
 .filterbtn {
-  max-width: 130px;
+  max-width: 175px;
+  display: inline-block;
 }
 
 /* more containers for posts */
@@ -310,9 +311,6 @@ details > summary {
 
 .filterbox {
   height: 75px;
-}
-
-filterbox > h1 {
   margin: auto;
 }
 
