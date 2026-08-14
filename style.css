@@ -76,6 +76,20 @@ p {
   line-height: 1.5em;
 }
 
+.small-text {
+    font-size: 12px;
+    text-shadow: #ffc1e9 1px 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    margin: auto;
+    padding: 1em;
+    width: 100%;
+    background: #ffffff;
+}
+
 h1 {
     font-family: 'Amarante', Alegreya Sans SC, serif;
     font-size: 1.75em;
@@ -99,6 +113,13 @@ header > h1 {
     border: 4px double #c82c97;
     filter: none;
     text-align: center;
+}
+
+.timestamp {
+    font-weight: normal;
+    font-size: smaller;
+    margin: .2em;
+    float: right;
 }
 
 .underline {
@@ -237,15 +258,11 @@ section {
     font-size: 18px;
 }
 
-.right-bio {
-  display: flex;
-  padding: 6%;
-}
-
 /* buttons */
 button {
     background-color: white;
     border: 2px dashed #c82c97;
+    margin: 15px;
     border-radius: 2em;
     text-align: center;
     font-size: 20px;
@@ -264,6 +281,11 @@ button > a {
 
 button:hover {
     background-color: #faffc1;
+}
+
+.imagebutton {
+    height: 31px;
+    width: 88px;
 }
 
 .filterbtn {
@@ -366,18 +388,17 @@ details > summary {
     padding: .5rem 0;
     border-bottom: 4px double #c82c97;
 }
-.timestamp {
-    font-weight: normal;
-    font-size: smaller;
-    margin: .2em;
-    float: right;
-}
 
 /* alignment */
 .right {
   display: flex;
   margin-left: auto;
   width: 47%;
+}
+
+.right-bio {
+  display: flex;
+  padding: 6%;
 }
 
 .center {text-align: center;}
@@ -387,25 +408,6 @@ details > summary {
   content: "";
   clear: both;
   display: table;
-}
-
-.small-text {
-    font-size: 12px;
-    text-shadow: #ffc1e9 1px 1px;
-}
-
-footer {
-    text-align: center;
-    font-size: small;
-    margin: auto;
-    padding: 1em;
-    width: 100%;
-    background: #ffffff;
-}
-
-.imagebutton {
-    height: 31px;
-    width: 88px;
 }
 
 /* Slideshow container */
