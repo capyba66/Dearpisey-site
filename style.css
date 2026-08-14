@@ -294,7 +294,7 @@ button:hover {
   margin: 15px;
 }
 
-/* more containers for posts */
+/* containers for posts */
 article {
     background-color: #ffffff;
     margin-top: 1em;
@@ -330,9 +330,11 @@ details > summary {
     color: #c82c97;
     list-style: none;
 }
+
 .readmore summary::-webkit-details-marker {
   display: none;
 }
+
 .readmore[open] > summary {
     border-bottom: 2px dashed #c82c97;
     padding-bottom: .6em;
