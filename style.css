@@ -173,6 +173,10 @@ li {
   width: 100%;
 }
 
+.right-bio {
+  display: flex;
+}
+
 #sidebar {
     background-color: #ffffff;
     color: #c82c97;
@@ -182,6 +186,7 @@ li {
     border: 4px double #c82c97;
     border-radius: 2em;
 }
+
 .small-box {
     max-width: 250px;
     margin: 10px;
@@ -369,7 +374,11 @@ details > summary {
 }
 
 /* alignment */
-.right {float: right; width: 47%;}
+.right {
+  display: flex;
+  float: right;
+  width: 47%;
+}
 
 .center {text-align: center;}
 
