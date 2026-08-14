@@ -129,8 +129,8 @@ header > h1 {
 hr {
     display: block;
     border: 0;
-    height: 48px;
-    width: 430;
+    height: 50px;
+    width: 430px;
     background-image: url('assets/div-star.png');
     object-fit: contain;
 }
