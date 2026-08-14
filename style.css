@@ -288,11 +288,11 @@ button:hover {
     width: 88px;
 }
 
-.filterbtn {
+/* .filterbtn {
   max-width: 175px;
   display: inline-block;
   margin: 15px;
-}
+} */
 
 /* containers for posts */
 article {
