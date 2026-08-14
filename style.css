@@ -387,9 +387,9 @@ img {
 
 .right-bio > img {
     display: flex;
-    min-width: 30%;
-    max-width: 75%;
-    min-height: 100%;
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 435px;
     justify-content: flex-start;
     object-fit: cover;
     border-radius: 10px;
