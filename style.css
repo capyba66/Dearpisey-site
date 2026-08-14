@@ -379,7 +379,6 @@ details > summary {
 
 .right-bio > img {
     display: flex;
-    width: 50%;
     min-height: 100%;
     justify-content: flex-start;
     object-fit: cover;
@@ -573,10 +572,6 @@ details > summary {
         align-items: center;
         border: none;
         border-radius: 0;
-    }
-    
-    .pic {
-      max-width: 250px;
     }
 
     header {min-height: 160px;}
