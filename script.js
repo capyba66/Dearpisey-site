@@ -23,7 +23,7 @@ function showDivs(n, no) {
 var Tally = Tally.loadEmbeds();
 
 //filter posts system
-filterSelection("all")
+/* filterSelection("all")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filter");
@@ -101,4 +101,4 @@ loadMoreBtn.addEventListener('click', () => {
   if (currentIndex >= items.length) {
     loadMoreBtn.style.display = 'none';
   }
-});
+}); */

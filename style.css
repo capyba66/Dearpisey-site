@@ -182,6 +182,7 @@ li {
     border: 4px double #c82c97;
     border-radius: 2em;
 }
+
 .small-box {
     max-width: 250px;
     margin: 10px;
@@ -234,6 +235,11 @@ section {
     margin-bottom: 10px;
     padding: .2em 1em;
     font-size: 18px;
+}
+
+.right-bio {
+  display: flex;
+  padding: 6%;
 }
 
 /* buttons */
@@ -343,11 +349,10 @@ details > summary {
 }
 
 .pic {
-    left: 0;
+    display: flex;
     width: 47%;
     max-height: 100%;
-    position: relative;
-    margin: 6%;
+    margin-right: auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 5px 40px 10px rgba(166,16,119,0.6);
@@ -369,7 +374,11 @@ details > summary {
 }
 
 /* alignment */
-.right {float: right; width: 47%;}
+.right {
+  display: flex;
+  margin-left: auto;
+  width: 47%;
+}
 
 .center {text-align: center;}
 
