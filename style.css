@@ -422,11 +422,9 @@ img {
 }
 
 .right-bio > h1 {
+  display: none;
   height: 100%;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-self: center;
-  text-align: center;
+  margin: auto;
 }
 
 .center {text-align: center;}
