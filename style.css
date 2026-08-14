@@ -369,6 +369,9 @@ details > summary {
 } */
 
 /* videos and images */
+/* Add classes for images that need to be edited 
+instead of editing the css for all images because that affects 
+the buttons on homepage too */
 .video {
     margin: 2.5em;
     border-radius: 0.75em;
