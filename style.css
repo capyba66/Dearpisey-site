@@ -341,7 +341,7 @@ details > summary {
     margin-bottom: .6em;
 }
 
-/* filter system */
+/* filter system
 .filter {
   display: none;
 }
@@ -361,7 +361,7 @@ details > summary {
 
 .hidden {
   display: none;
-}
+} */
 
 /* videos and images */
 .video {
