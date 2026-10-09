@@ -231,6 +231,8 @@ iframe {
 
 main {
     padding: 1em;
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 section {
